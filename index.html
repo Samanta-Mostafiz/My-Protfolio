@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <a href="#" class="logo">Protfolio</a>
+      <!-- <i class="fa-solid fa-bars" id="menu-icon"></i>    -->
+       <!--nav menu  -->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <!-- home -->
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>This is</h3>
+          <h1>Samanta Mostafiz</h1>
+          <h3>
+            and I am a
+            <span class="multi"></span>
+          </h3>
+        </div>
+        <a href="#contact" class="btn">Hire me</a>
+        <div class="home-img">
+          <img src="images/ri.jpg" alt="samanta" />
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="images/rii.jpeg" alt="me" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>Frontend developer</h3>
+          <p>
+            I have completed my graduation(2024) in Computer Science and
+            Engineering from Islamic University,Bangladesh.I have gather good
+            proficiency in web developing during my educational procedure.
+          </p>
+          <a href="images/samanta-resume.pdf" target="_blank"class="btn"> Download Resume</a>
+        </div>
+      </section>
+      <!--skills  -->
+      <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skill-content">
+        <p>what's the skills?</p>
+        <div class="skill-img">
+          <img src="images/html1.png" alt="html" height="100vw" width="100vw" />
+          <img
+            src="images/css-3-512.webp"
+            alt="css"
+            height="100vw"
+            width="100vw"
+          />
+          <img
+            src="images/bootstrap.png"
+            alt="bootstrap"
+            height="100vw"
+            width="100vw"
+          />
+          <img
+          src="images/tailwind-css-2.svg"
+          alt="bootstrap"
+          height="100vw"
+          width="100vw"
+        />
+        <img
+        src="images/typescript.svg"
+        alt="bootstrap"
+        height="100vw"
+        width="100vw"
+      />
+
+          <img src="images/js.png" alt="js" height="100vw" width="100vw" />
+          <img
+            src="images/react-logo-vector-1.svg"
+            alt="react"
+            height="100vw"
+            width="100vw"
+          />
+          <img src="images/git.png" alt="git" height="100vw" width="100vw" />
+          <img
+            src="images/chrome.png"
+            alt="chrome"
+            height="100vw"
+            width="100vw"
+          />
+          <img
+            src="images/vscode.png"
+            alt="vscode"
+            height="100vw"
+            width="100vw"
+          />
+        </div>
+        <!-- projects -->
+        <section class="projects" id="projects">
+          <h2 class="heading">Some <span>of my works</span></h2>
+          <div class="project-container">
+            <div class="project-box">
+              <img src="images/event planner.png" alt="Travel-app" />
+              <div class="project-layer">
+                <h4>Eventdiary</h4>
+                <p>
+                This is a Event management website,where people can see the events to decide their desired one and proceed ahead.It is completely based on Html,CSS,JavaSrcipt.
+                </p>
+                <i class="fa-solid fa-square-arrow-up-right">
+                  <a href="https://eventdiary.netlify.app/"></a
+                ></i>
+              </div>
+            </div>
+            <div class="project-box">
+              <img src="images/travel.png" alt="Travel-app" />
+              <div class="project-layer">
+                <h4>Travel-app</h4>
+                <p>
+                  The app is created using React.js framework.which contains
+                  basic necessities for traveling to arrange things
+                </p>
+                <i class="fa-solid fa-square-arrow-up-right">
+                  <a href="https://fastidious-pastelito-6fcb10.netlify.app"></a
+                ></i>
+              </div>
+            </div>
+            <br />
+            <div class="project-box">
+              <img src="images/age.png" alt="age calculator" />
+              <div class="project-layer">
+                <h4>Age calculator</h4>
+                <p>
+                  The app is created using html,css,javasrcipt to calculate Age
+                  of user comparing to current date.
+                </p>
+                <i class="fa-solid fa-square-arrow-up-right">
+                  <a href="https://frabjous-sable-101672.netlify.app"></a>
+                </i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+          <h2 class="heading">Contact <span>Me</span></h2>
+         <div class="contact-form">
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="mail" placeholder="E-mail Address" />
+            </div>
+            <div class="input-box">
+              <input type="number" placeholder="Mobile no:" />
+            </div>
+            <div class="input-box">
+              <textarea
+                name="message"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+              <input type="submit" value="send message" class="btn" />
+            </div>
+          </form>
+         </div>
+         <!-- form ends here -->
+          <div class="info">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i></div>
+            <div class="contact-text">
+                <p>01616418317</p>
+            </div>
+
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-text">
+              <p>Kushtia,Khulna,Bangladesh</p>
+            </div>
+
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-text">
+               <p>samantamostafizriya@gmail.com</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <hr />
+    <footer class="footer">
+      <div class="follow">
+        <p>Connect </p>
+        <div class="follow-icon">
+          <a href="https://www.linkedin.com/in/samanta-mostafiz-89304a315/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/samantamostafiz1/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-text">
+        <p>Copyright&copy;2024 @Samanta |All Rights Reserved.</p>
+      </div>
+      <div class="footer-icon">
+        <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
