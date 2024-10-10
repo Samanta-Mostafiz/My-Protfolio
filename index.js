@@ -7,4 +7,6 @@ const typed= new Typed(".multi",{
 
 })
 
-  
+document.getElementById('menu-icon').addEventListener('click', function() {
+    document.getElementById('navbar').classList.toggle('show');
+});
