@@ -157,6 +157,7 @@ a.about-content h3 {
   border-radius: 2rem;
   box-shadow: 0 0 1rem #cd20f4;
   overflow: hidden;
+  display: flex;
 }
 .project-box img {
   width: 100%;
@@ -172,7 +173,7 @@ a.about-content h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(244, 244, 244, 0.32);
+  background-color: rgba(218, 187, 187, 0.32);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,0 +1,79 @@
+Basic styling for the navbar
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-links {
+    display: flex; /* Default to flex for larger screens */
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .toggle-button {
+    display: none; /* Hide by default */
+    font-size: 24px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none; /* Hide navbar links by default on small screens */
+      width: 100%;
+      flex-direction: column; /* Stack items vertically */
+      background-color: #333;
+      position: absolute; /* Position it absolutely to overlay content */
+      top: 50px; /* Position it below the navbar */
+      left: 0;
+    }
+  
+    .navbar-links.active{
+      display: flex; /* Show links when active */
+    }
+  
+    .navbar-links ul {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .navbar-links li {
+      margin: 10px 0; /* Add margin between items */
+    }
+  
+    .toggle-button {
+      display: block; /* Show toggle button on small screens */
+    }
+  }
+
+  
