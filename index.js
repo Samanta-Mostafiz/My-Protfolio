@@ -1,5 +1,5 @@
 const typed= new Typed(".multi",{
-    strings:["Webflow Developer","UI/UX designer"],
+    strings:["Software Analyst","Webflow Developer"],
     typeSpeed:70,
     backSpeed:70,
     backDelay:1000,
